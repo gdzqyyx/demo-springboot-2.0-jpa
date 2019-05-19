@@ -10,9 +10,8 @@ import java.io.Serializable;
 @Setter
 @NoArgsConstructor
 @ToString
-public class Response implements Serializable {
-
-    private static final long serialVersionUID = 8101047308524213813L;
+@EqualsAndHashCode
+public class Response {
 
     @ApiModelProperty(value = "错误码（0：成功；非0：失败）", example = "0", required = true)
     private Integer errorCode;
