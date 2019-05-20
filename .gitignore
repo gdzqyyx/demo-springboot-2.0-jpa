@@ -1,0 +1,35 @@
+# Project-specific
+
+# Maven
+/target
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# IntelliJ IDEA
+.idea
+*.ipr
+*.iml
+
+# Visual Studio Code
+.vscode
+
+# Java
+*.class
+hs_err_pid*
+
+# Temporary Files
+*~
+~$*
+.*.swp
+
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+*.lnk
+
+# macOS
+.DS_Store
+._*
