@@ -18,12 +18,12 @@ public class UserInfo extends InfoBase {
 
     private static final long serialVersionUID = 316184412530980917L;
 
-    @Column(name = "username", unique = true, nullable = false)
+    @Column(name = "username", unique = true, nullable = false, length = 100)
     private String username;
 
-    @Column(name = "password", nullable = false)
+    @Column(name = "password", nullable = false, length = 100)
     private String password;
 
-    @Column(name = "description", length = 2048)
+    @Column(name = "description", length = 1024)
     private String description;
 }
