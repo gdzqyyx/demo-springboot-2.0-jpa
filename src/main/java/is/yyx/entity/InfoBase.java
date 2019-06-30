@@ -12,11 +12,7 @@ import java.time.LocalDateTime;
  * @author Ye.Yunxi
  */
 @MappedSuperclass
-@Getter
-@Setter
-@ToString
-@NoArgsConstructor
-@EqualsAndHashCode
+@Data
 class InfoBase implements Serializable {
 
     private static final long serialVersionUID = 6992589923026558563L;

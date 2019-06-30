@@ -5,10 +5,7 @@ import lombok.*;
 /**
  * @author Ye.Yunxi
  */
-@Getter
-@Setter
-@NoArgsConstructor
-@ToString
+@Data
 @EqualsAndHashCode(callSuper = true)
 public class DataResponse<T> extends Response {
 

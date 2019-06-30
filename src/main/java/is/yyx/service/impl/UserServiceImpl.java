@@ -1,19 +1,19 @@
 package is.yyx.service.impl;
 
-import com.google.common.base.Preconditions;
 import is.yyx.dao.UserInfoDao;
 import is.yyx.entity.UserInfo;
 import is.yyx.enums.RestStatus;
 import is.yyx.exception.RestAssert;
 import is.yyx.service.RoleService;
 import is.yyx.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.Assert;
 
 import java.util.List;
 
 @Service
+@Slf4j
 public class UserServiceImpl implements UserService {
 
     private final RoleService roleService;
